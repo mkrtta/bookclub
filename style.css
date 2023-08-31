@@ -1,0 +1,295 @@
+/*REGLAS UNIVERSALES*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*HEADER*/
+header {
+  background-color: rgb(206, 106, 133);
+  height: 400px;
+  width: 100%;
+  z-index: 2;
+}
+
+header a{
+  color: white;
+}
+
+header a:link{
+  color: white;
+  text-decoration: none;
+}
+
+header nav {
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  color: white;
+  background-color: rgb(206, 106, 133);
+  z-index: 1;
+}
+
+header #logo {
+  height: 40px;
+  width: 100px;
+  margin: 10px;
+  position: relative;
+  left: 30px;
+  filter: drop-shadow(1px 1px 3px black);
+}
+
+header span {
+  position: relative;
+  left: 1000px;
+  top: -25px;
+  margin: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+header #header_img {
+  position: relative;
+  left: 430px;
+  top: -80px;
+  z-index: 3;
+}
+
+header h1 {
+  font-family: "Playfair Display", serif;
+  color: white;
+  position: relative;
+  width: 400px;
+  top: 80px;
+  left: 120px;
+  font-size: 60px;
+  z-index: 2;
+}
+
+header h2 {
+  font-family: "Playfair Display", serif;
+  color: white;
+  position: relative;
+  width: 400px;
+  top: 70px;
+  left: 190px;
+  font-size: 50px;
+  z-index: 2;
+}
+#clear {
+  height: 100px;
+  width: 100%;
+  clear: both;
+}
+
+/*MAIN*/
+
+
+main {
+  width: 100%;
+  height: 500px;
+  position: absolute;
+}
+
+main div #about_us {
+  height: 400px;
+}
+
+main #about_us h1 {
+  position: relative;
+  width: 400px;
+  left: 480px;
+  top: 200px;
+  font-family: "Playfair Display", serif;
+  font-size: 70px;
+}
+
+main #about_us h2 {
+  position: relative;
+  width: 1000px;
+  left: 205px;
+  top: 200px;
+  font-family: "Playfair Display", serif;
+  font-size: 60px;
+}
+
+/*TRENDING BOOKS*/
+
+#check{
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  top: 300px;
+  text-align: center;
+}
+
+.trend{
+  position: relative;
+  left: 200px;
+  width: 900px;
+  height: 1700px;
+  top: 400px;
+}
+
+.book{
+  display: flex;
+  margin: 30px;
+}
+
+.txt{
+  margin: 30px;
+  text-align: justify;
+}
+
+.txt h1{
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+}
+
+.txt h3{
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+}
+
+.txt p{
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+
+.book img{
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+}
+
+/*DIV DE USO ESTILISTICO*/
+
+.color{
+  background-color: rgb(255, 140, 97);
+  width: 100%;
+  height: 180px;
+  position: relative;
+  top: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  
+}
+
+#h2{
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+  text-align: center;
+  width: 500px;
+  position: relative;
+  top: 400px;
+  margin: 20px;
+  left: 400px;
+}
+
+#h22{
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+  text-align: center;
+  width: 500px;
+  position: relative;
+  top: 385px;
+  margin: 20px;
+  left: 400px;
+}
+
+.color i{
+  position: relative;
+  top: 40px;
+}
+
+.color p{
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  position: relative;
+  top: 60px;
+}
+
+/*ABOUT US*/
+
+.meet{
+  position: relative;
+  top: 450px;
+  left: 460px;
+  margin: 40px;
+  font-size: 50px;
+  width: 400px;
+  font-family: "Poppins", sans-serif;
+  text-shadow: 0px 0px 8px rgba(206, 106, 133, 0.8);
+}
+
+.team{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  row-gap: 30px;
+  max-width: 800px;
+  margin: 30px auto;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  position: relative;
+  top: 430px;  
+}
+
+.team img{
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+
+.team_txt{
+  width: 480px;
+}
+
+.team h1{
+  font-family: "Playfair Display", serif;
+  position: relative;
+  top: 10px;
+  font-size: 40px;
+  left: 0px;
+}
+
+.team h2{
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  top: 160px;
+  width: 180px;
+  left: -255px;
+}
+
+.team p{
+  font-family: "Poppins", sans-serif;
+}
+
+/*FOOTER*/
+
+footer table{
+  position: relative;
+  top: 3500px;
+  background-color: rgb(152, 82, 119);
+  height: 300px;
+  width: 100%;
+  margin-top: 100px;
+}
+
+/*MAPA*/
+.footer-td
+{
+  text-align: center;
+  width: 50%;
+  margin: 20px;
+  padding-left: 100px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+
+iframe{
+  height: 273px;
+  width: 493px;
+}

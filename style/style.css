@@ -1,0 +1,36 @@
+/*REGLAS UNIVERSALES*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*HEADER*/
+header {
+  background-color: rgb(255, 156, 63);
+  height: 400px;
+  width: 100%;
+}
+
+header nav {
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  background-color: rgb(255, 156, 63);
+  position: absolute;
+}
+
+header img {
+  height: 40px;
+  width: 100px;
+  margin: 10px;
+  position: relative;
+  left: 30px;
+}
+
+header span {
+  position: relative;
+  left: 1000px;
+  top: -28px;
+  margin: 10px;
+  font-family: "Poppins", sans-serif;
+}
